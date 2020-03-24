@@ -2,7 +2,7 @@ body {
   margin: 0;
   background-image: url('images/bg.png');
   background-repeat: repeat-y;
-  background-size: cover;
+  background-size: 100%;
 }
 h1, h2 {
   text-align: center;

@@ -4,7 +4,7 @@ body {
   background-repeat: repeat-y;
   background-size: 100%;
 }
-h1, h2 {
+h1, h2, h3 {
   text-align: center;
 }
 h1 {
@@ -12,14 +12,18 @@ h1 {
   margin: 2rem auto;
   font-size: 4rem;
 }
-h2, h3 {
+h2, h4 {
   font-family: Overpass;
   margin-bottom: 2rem;
 }
-h2 {
+h2, h3 {
   font-weight: 400;
 }
 h3 {
+  font-size: 1em;
+  font-family: Overpass;
+}
+h4 {
   font-size: 1.5em;
   font-weight: 900;
   margin-top: 3rem;
@@ -52,7 +56,10 @@ footer {
 .logo {
   max-width: 150px;
 }
-.logos {
+.logo-sm {
+  max-width: 80px;
+}
+.logos, .logos-sm {
   max-width: 500px;
   margin: auto;
   display: grid;
@@ -61,6 +68,9 @@ footer {
   margin-bottom: 1rem;
   justify-items: center;
   align-items: center;
+}
+.logos-sm {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 .container {
   max-width: 800px;

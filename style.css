@@ -71,8 +71,8 @@ footer {
   align-items: center;
 }
 .logos-sm {
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 0px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
 }
 .container {
   max-width: 800px;

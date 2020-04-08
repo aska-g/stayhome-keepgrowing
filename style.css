@@ -57,8 +57,7 @@ footer {
   max-width: 170px;
 }
 .logo-sm {
-  max-width: 100px;
-  filter: gray;
+  max-width: 120px;
 }
 .logos, .logos-sm {
   max-width: 800px;
@@ -71,7 +70,7 @@ footer {
   align-items: center;
 }
 .logos-sm {
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 25px;
 }
 .container {
